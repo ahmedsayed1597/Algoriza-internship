@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Pages/on_bording_page.dart';
+//import 'package:flutter_application_1/Pages/on_bording_page.dart';
+import 'package:flutter_application_1/Pages/onboarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'On Bording Page',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: onbordingPage(),
+      home: Onbording(),
     );
   }
 }
