@@ -28,9 +28,10 @@ class _OnbordingState extends State<Onbording> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(
+        body: ListView(
           children: [
-            Expanded(
+            Container(
+              height: MediaQuery.of(context).size.height * 0.8,
               child: PageView.builder(
                 controller: _controller,
                 itemCount: content.length,
@@ -42,8 +43,8 @@ class _OnbordingState extends State<Onbording> {
                 itemBuilder: (_, i) {
                   return Padding(
                     padding: const EdgeInsets.all(40),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                    child: ListView(
+                      //mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         const Image(
                           image: AssetImage("lib/assets/7.png"
