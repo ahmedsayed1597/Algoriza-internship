@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^1.1.0
+  intl_phone_field: ^3.1.0
   
 
 dev_dependencies:
@@ -64,6 +65,8 @@ flutter:
      - lib/assets/sammy2.png
      - lib/assets/sammy1.png
      - lib/assets/7.png
+     - lib/assets/google.png
+     - lib/assets/Huawei-Mediapad.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

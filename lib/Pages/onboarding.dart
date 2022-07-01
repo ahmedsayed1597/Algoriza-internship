@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Pages/signin.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_application_1/Modules/content_module.dart';
 import 'home.dart';
@@ -105,7 +106,7 @@ class _OnbordingState extends State<Onbording> {
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (_) => const Home(),
+                        builder: (_) => const signIn(),
                       ),
                     );
                   }
